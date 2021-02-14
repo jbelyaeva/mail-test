@@ -2,7 +2,7 @@
 
 открываем терминал и в папке проекта и выполняем команду:
 
-`./gradlew -Pbrowser=chrome -Ptarget=remote clean testSendEmail`
+`./gradlew -Pbrowser=chrome -Ptarget=remote clean testEmail`
 
 передаваемые параметры:
 
@@ -12,11 +12,11 @@
 
 `-Dfile.encoding=UTF-8` – для правильного отображения кириллицы из файла json
 
-`testSendEmail` – запускаемый тестовый набор
+`testEmail` – запускаемый тестовый набор
 
 чтобы запустить тестовый набор с дефолтными настройками команда выглядит так:
  
- `./gradlew clean testSendEmail`
+ `./gradlew clean testEmail`
 
 **Генерация отчета:**
 

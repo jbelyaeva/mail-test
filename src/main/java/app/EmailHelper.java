@@ -33,7 +33,6 @@ public class EmailHelper extends HelperBase {
 
   @Step("Заполнить необходимые поля")
   public void fillNewLetter(Email email, String pref) {
-    clickWithOffset(inputRecipient);
     type(inputRecipient, email.getRecipient());
     type(inputSubject, email.getTopic() + pref);
     click(divTextEmail);
