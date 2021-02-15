@@ -2,7 +2,7 @@
 
 открываем терминал и в папке проекта и выполняем команду:
 
-`./gradlew -Pbrowser=chrome -Ptarget=remote clean testEmail`
+`./gradlew -Pbrowser=googlechrome -Ptarget=remote clean testEmail`
 
 передаваемые параметры:
 
